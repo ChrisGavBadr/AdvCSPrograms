@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="" />
+    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvCompSci.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdvCSPrograms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/META-INF/AP_CompSci.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/Scrabble/HeartOfDarkness.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/Scrabble/othertest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/Scrabble/sampletext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/randomwriter/GreenEggsAndHam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/randomwriter/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/text/Coin_Flips.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/text/Integers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/text/Practice_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP_CompSci/text/Words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw1/FileIOPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw1/FileIOReview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/fractions/RationalNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/fractions/RationalNumberDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/orbit/CelestialBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/orbit/GravDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/tickets1/Advance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/tickets1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/tickets1/StudentAdvance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/tickets1/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw2/tickets1/TicketDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/shapes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/shapes/Shapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/shapes/ShapesDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/shapes/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/tickets2/StudentAdvance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/tickets2/TicketDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/tickets2/Tickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/vehicle/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/vehicle/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/vehicle/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw3/vehicle/VehicleDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw4/ArrayListPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw5/ListMapPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw6/EightQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw6/RecursivePractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw6/dominoes/Domino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/classwork/cw6/dominoes/DominoSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/randomwriter/GreenEggsAndHam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/randomwriter/RandomWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/randomwriter/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/HeartOfDarkness.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/MaxScrabbleScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/ScrabbleDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/TextFileAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/othertest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/scrabble/sampletext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/snowpackets/StringBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/text/Coin_Flips.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/text/Integers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/text/Practice_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdvCompSci/text/Words.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +72,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RI6sx0v0gWNXdTRaOW4Q0er4fI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -46,7 +106,7 @@
   <component name="RunManager" selected="Application.RandomWriter">
     <configuration name="DominoSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw6.dominoes.DominoSet" />
-      <module name="AdvCompSci" />
+      <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.cw6.dominoes.*" />
@@ -59,7 +119,7 @@
     </configuration>
     <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw6.EightQueens" />
-      <module name="AdvCompSci" />
+      <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.cw6.*" />
@@ -72,7 +132,7 @@
     </configuration>
     <configuration name="RandomWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randomwriter.RandomWriter" />
-      <module name="AdvCompSci" />
+      <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="randomwriter.*" />
@@ -85,7 +145,7 @@
     </configuration>
     <configuration name="RecursivePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw6.RecursivePractice" />
-      <module name="AdvCompSci" />
+      <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.cw6.dominoes.*" />
@@ -98,7 +158,7 @@
     </configuration>
     <configuration name="StringBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowpackets.StringBinarySearch" />
-      <module name="AdvCompSci" />
+      <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="snowpackets.*" />
@@ -131,5 +191,18 @@
       <updated>1569342472888</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
