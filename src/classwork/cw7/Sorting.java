@@ -12,7 +12,6 @@ public class Sorting {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.print("Dictionary Text File: ");
         List<String> dict = readTextFile(promptFile());
-        /*System.out.println(dict);*/
         System.out.println("Enter 2 Words from the Dictionary");
         System.out.print("\tWord 1: ");
         String a = promptWordInDict(dict);

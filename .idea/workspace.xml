@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw7/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/randomwriter/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/RandomWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/RandomWriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/randomwriter/RandomWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomwriter/RandomWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/randomwriter/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomwriter/output.txt" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
+  <component name="RunManager" selected="Application.RandomWriter">
     <configuration name="DominoSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw6.dominoes.DominoSet" />
       <module name="AdvCSPrograms" />
@@ -122,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.RandomWriter" />
+        <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.StringBinarySearch" />
         <item itemvalue="Application.RecursivePractice" />
         <item itemvalue="Application.DominoSet" />
@@ -141,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1569342472888</updated>
     </task>
+    <task id="LOCAL-00001" summary="Began Classwork 7 (Chapter 13) problems">
+      <created>1579026106173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579026106173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,5 +164,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Began Classwork 7 (Chapter 13) problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Began Classwork 7 (Chapter 13) problems" />
   </component>
 </project>

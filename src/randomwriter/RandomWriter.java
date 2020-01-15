@@ -12,41 +12,33 @@ public class RandomWriter {
 
     public static void main(String[] args) throws IOException {
         // Prompt for input file
-        Scanner s = new Scanner(System.in);
-        System.out.print("Input Source File: ");
-        File inputFile = promptFile();
-        String input = readTextFile(inputFile);
+        System.out.println("-- Input File --");
+        String input = readTextFile(promptFile());
         // Prompt for output file
-        System.out.print("Output File: ");
+        System.out.println("-- Output File --");
         File outputFile = promptFile();
         FileWriter outputFW = new FileWriter(outputFile);
         // Prompt for analysis level
-        System.out.print("Analysis Level: ");
-        int k = s.nextInt();
-        while (k < 0 || k > input.length()) {
-            System.out.print("Invalid input. Try again: ");
-            k = s.nextInt();
-        }
+        int k = promptAnalysisLevel(input);
         // Prompt for # of characters to write
-        System.out.print("# Characters to Write: ");
-        int length = s.nextInt();
-        while (length < 0) {
-            System.out.print("Invalid input. Try again: ");
-            length = s.nextInt();
-        }
-        s.close();
+        int length = promptOutputLength();
 
-        // Initialize output and seed
-        StringBuilder output = new StringBuilder();
-        StringBuilder seed = new StringBuilder(input.substring(0, k));
+        // Initialize seed
+        StringBuilder seed = generateSeed(input, k);
 
-        // Loop to determine and write the next character seed (previous k characters)
-        for (int i = k; i < length; i++) {
-            List<Character> chars = analyzeText(input, seed, k, length);
-            if (chars.size() != 0)
-                outputFW.write(chooseCharacter(chars));
-            seed.deleteCharAt(0);
-            seed.append(input.charAt(i));
+        // Loop to determine and write next character according to seed (previous k characters)
+        for (int i = 0; i < length; i++) {
+            List<Character> chars = analyzeText(input, seed, k);
+
+            if (chars.size() > 1) {
+                char ch = chooseCharacter(chars);
+                outputFW.write(ch);
+                seed.deleteCharAt(0);
+                seed.append(ch);
+            } else {
+                seed = generateSeed(input, k);
+                i--;
+            }
         }
 
         outputFW.close();
@@ -55,35 +47,79 @@ public class RandomWriter {
         System.out.println("\n**** Successfully Executed! See output at " + outputFile.getName() + ". ****");
     }
 
+    // Generates random seed of length k from input text
+    public static StringBuilder generateSeed(String input, int k) {
+        int lowerSeedIdx = (int) ((input.length() - k)*Math.random());
+        int upperSeedIdx = lowerSeedIdx + k;
+
+        return new StringBuilder(input.substring(lowerSeedIdx, upperSeedIdx));
+    }
+
+    // Prompts for existing text file
     public static File promptFile() {
         Scanner s = new Scanner(System.in);
-        File file = new File("src\\randomwriter\\" + s.nextLine());
+        File file;
 
-        while (!file.exists()) {
-            System.out.print("File does not exist. Try again: ");
-            file = new File("src\\randomwriter\\" + s.nextLine());
-        }
+         do {
+             System.out.print("File Name: ");
+             file = new File("src\\randomwriter\\" + s.nextLine());
+             if (!file.exists())
+                 System.out.println("File does not exist.");
+         } while (!file.exists());
 
         return file;
     }
 
+    // Prompts for analysis level
+    public static int promptAnalysisLevel(String input) {
+        Scanner s = new Scanner(System.in);
+        int k;
+
+        do {
+            System.out.print("Analysis Level: k = ");
+            k = s.nextInt();
+            if (k < 0)
+                System.out.println("- \"k\" must be non-negative.");
+            if (k >= input.length())
+                System.out.println("- \"k\" must be lower than the size of the input text (" + input.length() + ").");
+        } while (k < 0 || k >= input.length());
+
+        return k;
+    }
+
+    // Prompts for output length
+    public static int promptOutputLength() {
+        Scanner s = new Scanner(System.in);
+        int length;
+
+        do {
+            System.out.print("# Characters to Write: length = ");
+            length = s.nextInt();
+            if (length < 0)
+                System.out.print("- \"length\" must be non-negative.");
+        } while (length < 0);
+
+        return length;
+    }
+
     // Returns the text, expressed as a string, from the .txt file
-    public static String readTextFile(File inputFile) throws FileNotFoundException {
-        Scanner s = new Scanner(inputFile);
-        StringBuilder input = new StringBuilder();
+    public static String readTextFile(File file) throws FileNotFoundException {
+        Scanner s = new Scanner(file);
+        StringBuilder text = new StringBuilder();
 
         while (s.hasNextLine())
-            input.append(s.nextLine());
+            text.append("\n").append(s.nextLine());
 
-        return input.toString();
+        return text.toString();
     }
 
     // Returns a list of possible characters to append based on a seed
-    public static List<Character> analyzeText(String text, StringBuilder seed, int k, int length) {
+    public static List<Character> analyzeText(String text, StringBuilder seed, int k) {
         List<Character> chars = new ArrayList<Character>();
-        for (int i = 0; i < length; i++) {
+
+        for (int i = 0; i < text.length() - k; i++) {
             if (text.substring(i, i + k).equals(seed.toString()))
-                chars.add(text.charAt(i + seed.length()));
+                chars.add(text.charAt(i + k));
         }
 
         return chars;
