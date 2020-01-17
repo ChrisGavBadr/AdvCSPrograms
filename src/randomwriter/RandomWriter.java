@@ -12,10 +12,10 @@ public class RandomWriter {
 
     public static void main(String[] args) throws IOException {
         // Prompt for input file
-        System.out.println("-- Input File --");
+        System.out.println("---- Input File ----");
         String input = readTextFile(promptFile());
         // Prompt for output file
-        System.out.println("-- Output File --");
+        System.out.println("---- Output File ----");
         File outputFile = promptFile();
         FileWriter outputFW = new FileWriter(outputFile);
         // Prompt for analysis level
@@ -26,7 +26,7 @@ public class RandomWriter {
         // Initialize seed
         StringBuilder seed = generateSeed(input, k);
 
-        // Loop to determine and write next character according to seed (previous k characters)
+        // Loop to write 'length'
         for (int i = 0; i < length; i++) {
             List<Character> chars = analyzeText(input, seed, k);
             // Pick new random seed if there are no characters to choose from
@@ -34,6 +34,7 @@ public class RandomWriter {
                 seed = generateSeed(input, k);
                 chars = analyzeText(input, seed, k);
             }
+            //
             char ch = chooseCharacter(chars);
             outputFW.write(ch);
             seed.deleteCharAt(0);
@@ -78,9 +79,9 @@ public class RandomWriter {
             System.out.print("Analysis Level: k = ");
             k = s.nextInt();
             if (k < 0)
-                System.out.println("- \"k\" must be non-negative.");
+                System.out.println("- \'k\' must be non-negative.");
             if (k >= input.length())
-                System.out.println("- \"k\" must be lower than the size of the input text (" + input.length() + ").");
+                System.out.println("- \'k\' must be lower than the size of the input text (" + input.length() + ").");
         } while (k < 0 || k >= input.length());
 
         return k;
@@ -95,7 +96,7 @@ public class RandomWriter {
             System.out.print("# Characters to Write: length = ");
             length = s.nextInt();
             if (length < 0)
-                System.out.print("- \"length\" must be non-negative.");
+                System.out.print("- \'length\' must be non-negative.");
         } while (length < 0);
 
         return length;
