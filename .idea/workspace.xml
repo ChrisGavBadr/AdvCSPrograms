@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/RandomWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/RandomWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/randomwriter/RandomWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomwriter/RandomWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/randomwriter/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomwriter/output.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579280893576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed flaws in RandomWriter program">
+      <created>1579282322166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579282322166</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

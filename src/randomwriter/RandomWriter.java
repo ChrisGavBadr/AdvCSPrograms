@@ -26,15 +26,15 @@ public class RandomWriter {
         // Initialize seed
         StringBuilder seed = generateSeed(input, k);
 
-        // Loop to write 'length'
+        // Loop to write 'length' random characters based on seed(s)
         for (int i = 0; i < length; i++) {
             List<Character> chars = analyzeText(input, seed, k);
-            // Pick new random seed if there are no characters to choose from
-            if (chars.size() == 0) {
+            // Generate new seed and character list if there are no characters to choose from
+            while (chars.size() == 0) {
                 seed = generateSeed(input, k);
                 chars = analyzeText(input, seed, k);
             }
-            //
+            // Write random character to output file and update seed
             char ch = chooseCharacter(chars);
             outputFW.write(ch);
             seed.deleteCharAt(0);
