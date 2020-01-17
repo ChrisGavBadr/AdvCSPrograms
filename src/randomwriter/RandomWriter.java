@@ -29,16 +29,15 @@ public class RandomWriter {
         // Loop to determine and write next character according to seed (previous k characters)
         for (int i = 0; i < length; i++) {
             List<Character> chars = analyzeText(input, seed, k);
-
-            if (chars.size() > 1) {
-                char ch = chooseCharacter(chars);
-                outputFW.write(ch);
-                seed.deleteCharAt(0);
-                seed.append(ch);
-            } else {
+            // Pick new random seed if there are no characters to choose from
+            if (chars.size() == 0) {
                 seed = generateSeed(input, k);
-                i--;
+                chars = analyzeText(input, seed, k);
             }
+            char ch = chooseCharacter(chars);
+            outputFW.write(ch);
+            seed.deleteCharAt(0);
+            seed.append(ch);
         }
 
         outputFW.close();
@@ -113,7 +112,7 @@ public class RandomWriter {
         return text.toString();
     }
 
-    // Returns a list of possible characters to append based on a seed
+    // Returns a list of possible characters to append based on seed
     public static List<Character> analyzeText(String text, StringBuilder seed, int k) {
         List<Character> chars = new ArrayList<Character>();
 
