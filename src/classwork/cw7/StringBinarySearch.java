@@ -1,18 +1,19 @@
-package snowpackets;
+package classwork.cw7;
 
 import java.util.*;
 
 public class StringBinarySearch {
 
     public static void main(String[] args) {
-        List<String> s = new ArrayList<String>(Arrays.asList("Hello", "my", "name", "is", "Christian", "Baduria"));
-        Collections.sort(s);
-        String target = "Christian";
+        Scanner s = new Scanner(System.in);
+        List<String> words = new LinkedList<String>(Arrays.asList("Did", "you", "know", "that", "my", "name", "is", "Christian", "Baduria", "?"));
+        System.out.println("Original List: " + words.toString());
+        Collections.sort(words);
+        System.out.println("Sorted List: " + words.toString());
+        System.out.print("Target: ");
+        String target = s.next();
 
-        System.out.println("List: " + s.toString());
-        System.out.println("Target: " + target);
-
-        int idx = stringBinarySearch(s, target);
+        int idx = stringBinarySearch(words, target);
 
         if (idx < 0)
             System.out.println("Target not found.");
@@ -20,11 +21,11 @@ public class StringBinarySearch {
             System.out.println("Target found! \"" + target + "\" is located at index " + idx + ".");
     }
 
-    public static int stringBinarySearch(List<String> s, String target) {
+    private static int stringBinarySearch(List<String> s, String target) {
         return stringBinarySearch(s, target, 0, s.size() - 1);
     }
 
-    public static int stringBinarySearch(List<String> s, String target, int min, int max) {
+    private static int stringBinarySearch(List<String> s, String target, int min, int max) {
         int mid =  (max + min) / 2;
 
         if (min > max)
