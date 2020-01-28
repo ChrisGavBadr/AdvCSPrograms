@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" afterDir="false" />
+    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="Worked on cw7: Programmed quick sorting algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/BogoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/WordDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/WordDistance.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,39 +55,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.WordDistance">
+    <configuration name="BogoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw7.BogoSort" />
+      <module name="AdvCSPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.cw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw6.GenerateFibonacciSequence" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.cw6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapIntersections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw5.MapIntersections" />
-      <module name="AdvCSPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.cw5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartitionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw5.PartitionList" />
-      <module name="AdvCSPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.cw5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RarestMappedInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw5.RarestMappedInteger" />
+    <configuration name="StringBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw7.StringBinarySearch" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.cw5.*" />
+          <option name="PATTERN" value="classwork.cw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw7.WordDistance" />
+      <module name="AdvCSPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.cw7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordDistance" />
         <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.StringBinarySearch" />
+        <item itemvalue="Application.BogoSort" />
         <item itemvalue="Application.GenerateFibonacciSequence" />
-        <item itemvalue="Application.RarestMappedInteger" />
-        <item itemvalue="Application.PartitionList" />
-        <item itemvalue="Application.MapIntersections" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580143567356</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Worked on cw7: Programmed quick sorting algorithm">
+      <created>1580229773061</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580229773061</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Worked on cw7: Programmed quick sorting algorithm">
+      <created>1580229808088</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580229808089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +219,7 @@
     <MESSAGE value="Finished RandomWriter CS Project" />
     <MESSAGE value="Fixed flaws in RandomWriter program" />
     <MESSAGE value="Worked on cw7; Reorganized cw4, cw5, and cw6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on cw7; Reorganized cw4, cw5, and cw6" />
+    <MESSAGE value="Worked on cw7: Programmed quick sorting algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on cw7: Programmed quick sorting algorithm" />
   </component>
 </project>

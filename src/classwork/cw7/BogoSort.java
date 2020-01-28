@@ -12,7 +12,7 @@ public class BogoSort {
         System.out.println("Original List: " + vals.toString());
         int iterations = bogoSort(vals);
         System.out.println("Sorted List: " + vals.toString());
-        System.out.println("Bogo Sort Efficiency: " + iterations + " iterations.");
+        System.out.println("Bogo Sort Efficiency: " + iterations + " iterations");
     }
 
     private static int bogoSort(List<Integer> a) {

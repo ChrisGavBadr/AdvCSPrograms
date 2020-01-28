@@ -35,7 +35,6 @@ public class QuickSort {
         for (int j = low; j < high; j++) {
             if (a.get(j) < pivot) {
                 i++;
-
                 Collections.swap(a, i, j);
             }
         }
