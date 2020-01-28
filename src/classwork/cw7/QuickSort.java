@@ -19,7 +19,6 @@ public class QuickSort {
         quickSort(a, 0, a.size() - 1);
     }
 
-    // Recursive function for Quick Sort
     private static void quickSort(List<Integer> a, int low, int high) {
         if (low < high) {
             int pi = partition(a, low, high);
@@ -29,7 +28,6 @@ public class QuickSort {
         }
     }
 
-    // Partitions population
     private static int partition(List<Integer> a, int low, int high) {
         double pivot = a.get(high);
         int i = low - 1;
