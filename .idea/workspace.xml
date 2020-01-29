@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/BogoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/StringBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowpackets/StringBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowpackets/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580235685223</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Generalized functions w/ Comparable type">
+      <created>1580320694134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580320694135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +233,7 @@
     <MESSAGE value="Worked on cw7; Reorganized cw4, cw5, and cw6" />
     <MESSAGE value="Worked on cw7: Programmed quick sorting algorithm" />
     <MESSAGE value="Finished classwork 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished classwork 7" />
+    <MESSAGE value="Generalized functions w/ Comparable type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generalized functions w/ Comparable type" />
   </component>
 </project>
