@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw7/QuickSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.PostfixEvaluate">
     <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowpackets.BinarySearch" />
       <module name="AdvCSPrograms" />
@@ -93,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostfixEvaluate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw8.PostfixEvaluate" />
+      <module name="AdvCSPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.cw8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw7.QuickSort" />
       <module name="AdvCSPrograms" />
@@ -106,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw7.WordDistance" />
-      <module name="AdvCSPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.cw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostfixEvaluate" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BinarySearch (1)" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BogoSort" />
-        <item itemvalue="Application.WordDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580320694135</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Improved efficiency of algorithm">
+      <created>1580321812156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580321812156</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +242,7 @@
     <MESSAGE value="Worked on cw7: Programmed quick sorting algorithm" />
     <MESSAGE value="Finished classwork 7" />
     <MESSAGE value="Generalized functions w/ Comparable type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generalized functions w/ Comparable type" />
+    <MESSAGE value="Improved efficiency of algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved efficiency of algorithm" />
   </component>
 </project>
