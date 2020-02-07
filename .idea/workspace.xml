@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PostfixEvaluate">
+  <component name="RunManager" selected="Application.IsPalindrome">
     <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowpackets.BinarySearch" />
       <module name="AdvCSPrograms" />
@@ -68,25 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw7.BinarySearch" />
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw8.IsPalindrome" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.cw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BogoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw7.BogoSort" />
-      <module name="AdvCSPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.cw7.*" />
+          <option name="PATTERN" value="classwork.cw8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw8.SplitQueue" />
+      <module name="AdvCSPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.cw8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.SplitQueue" />
         <item itemvalue="Application.PostfixEvaluate" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BinarySearch (1)" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.BogoSort" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580321812156</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Began working on classwork 8">
+      <created>1581097569423</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581097569424</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +252,7 @@
     <MESSAGE value="Finished classwork 7" />
     <MESSAGE value="Generalized functions w/ Comparable type" />
     <MESSAGE value="Improved efficiency of algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved efficiency of algorithm" />
+    <MESSAGE value="Began working on classwork 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Began working on classwork 8" />
   </component>
 </project>

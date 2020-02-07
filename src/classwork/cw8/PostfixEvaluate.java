@@ -5,7 +5,7 @@ import java.util.*;
 public class PostfixEvaluate {
 
     public static void main(String[] args) {
-        Queue<String> expressions = new LinkedList<String>(Arrays.asList("1 2 3 * + 4 +", "2 3 1 * + 9 -", "3 4 /"));
+        Queue<String> expressions = new LinkedList<>(Arrays.asList("1 2 3 * + 4 +", "2 3 1 * + 9 -", "3 4 /"));
 
         while (!expressions.isEmpty()) {
             String pfexpr = expressions.remove();
