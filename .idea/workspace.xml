@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/golfclub/GolfClub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/golfclub/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/PostfixEvaluate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/SplitQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +28,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -44,25 +48,13 @@
       <recent name="C:\Users\chris\IdeaProjects\AP_CompSci\src\text" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.IsPalindrome">
-    <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowpackets.BinarySearch" />
+  <component name="RunManager" selected="Application.GolfClub">
+    <configuration name="GolfClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="golfclub.GolfClub" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snowpackets.*" />
+          <option name="PATTERN" value="golfclub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cw7.QuickSort" />
-      <module name="AdvCSPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.cw7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SplitQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.cw8.SplitQueue" />
       <module name="AdvCSPrograms" />
@@ -122,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.cw8.StackExercise" />
+      <module name="AdvCSPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.cw8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.GolfClub" />
         <item itemvalue="Application.SplitQueue" />
         <item itemvalue="Application.PostfixEvaluate" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.BinarySearch (1)" />
+        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.StackExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581097569424</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished first 3 problems">
+      <created>1581102682848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581102682848</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +252,45 @@
     <MESSAGE value="Generalized functions w/ Comparable type" />
     <MESSAGE value="Improved efficiency of algorithm" />
     <MESSAGE value="Began working on classwork 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Began working on classwork 8" />
+    <MESSAGE value="Finished first 3 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished first 3 problems" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1582315326741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582315326741" />
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582046449557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582046449557" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1582344543355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1582344543355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1582344543355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1582344543355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1582344640231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582344640231" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582333159706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582333159706" />
+    <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582312176773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1582312176773" />
   </component>
 </project>
