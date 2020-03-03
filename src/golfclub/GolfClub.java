@@ -113,6 +113,7 @@ public class GolfClub {
         System.out.printf("%s %s was successfully added to the database. Returning to main menu...\n", firstName, lastName);
     }
 
+    // Displays entire database
     private static void displayDatabase(List<Member> database) {
         for (int i = 0; i < database.size(); i++) {
             displayInformation(database, i);
