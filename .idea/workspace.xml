@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/golfclub/GolfClub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/golfclub/Member.java" afterDir="false" />
+    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="Finished cw8 and GolfClub project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw8/StackExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/golfclub/GolfClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/golfclub/GolfClub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581102682848</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished cw8 and GolfClub project">
+      <created>1582344674244</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582344674245</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +258,8 @@
     <MESSAGE value="Improved efficiency of algorithm" />
     <MESSAGE value="Began working on classwork 8" />
     <MESSAGE value="Finished first 3 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first 3 problems" />
+    <MESSAGE value="Finished cw8 and GolfClub project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished cw8 and GolfClub project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1582315326741">
@@ -264,30 +270,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582046449557" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1582344543355">
+    <state x="417" y="0" key="CommitChangelistDialog2" timestamp="1583256659501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1582344543355">
+    <state x="417" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583256659501" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1583258970179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1582344543355">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583258970179" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1583258970179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1582344543355">
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583258970179" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1583258970179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582344543355" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1582344640231">
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583258970179" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1583258970179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582344640231" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582333159706">
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583258970179" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1582344676537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582333159706" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582344676537" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583254577001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583254577001" />
     <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582312176773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

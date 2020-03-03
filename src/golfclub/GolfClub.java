@@ -5,7 +5,13 @@ import java.util.*;
 
 public class GolfClub {
 
-    private static double EPSILON = 0.00000001;     // Used for floating-point errors
+    // Actions bound to integers
+    private static final int DISPLAY_DATABASE = 0;
+    private static final int SEARCH_MEMBER = 1;
+    private static final int ADD_MEMBER = 2;
+    private static final int EXIT_DATABASE = 3;
+
+    private static final double EPSILON = 0.00000001;     // Used for floating-point errors
 
     // Initializes Golf Club database and initiates program
     public static void main(String[] args) {
@@ -31,12 +37,14 @@ public class GolfClub {
 
         do {
             action = promptNextAction();
-            if (action == 0) {
+            if (action == DISPLAY_DATABASE) {
+                displayDatabase(database);
+            } else if (action == SEARCH_MEMBER) {
                 performSearchMemberAction(database);
-            } else if (action == 1) {
+            } else if (action == ADD_MEMBER) {
                 performAddMemberAction(database);
             }
-        } while (action != 2);
+        } while (action != EXIT_DATABASE);
     }
 
     // Prompts user for next action (search member, add member, or exit database)
@@ -45,21 +53,22 @@ public class GolfClub {
         int action;
 
         System.out.println("----\nWhat action do you want to take?");
-        System.out.println("\t[0] - Search for a current Golf Club member");
-        System.out.println("\t[1] - Add a new Golf Club member to the database");
-        System.out.println("\t[2] - Exit database");
+        System.out.println("\t[0] - Display database");
+        System.out.println("\t[1] - Search for a current Golf Club member");
+        System.out.println("\t[2] - Add a new Golf Club member to the database");
+        System.out.println("\t[3] - Exit database");
 
         do {
             System.out.print("Action: ");
             action = s.nextInt();
 
-            if (action != 0 && action != 1 && action != 2) {
+            if (action != DISPLAY_DATABASE && action != SEARCH_MEMBER && action != ADD_MEMBER && action != EXIT_DATABASE) {
                 System.out.println("Invalid input, try again.");
-            } else if (action == 2) {
-                System.out.print("Type '2' again to confirm, or type another action: ");
+            } else if (action == EXIT_DATABASE) {
+                System.out.printf("Type '%d' again to confirm, or type another action: ", EXIT_DATABASE);
                 action = s.nextInt();
             }
-        } while (action != 0 && action != 1 && action != 2);
+        } while (action != DISPLAY_DATABASE && action != SEARCH_MEMBER && action != ADD_MEMBER && action != EXIT_DATABASE);
 
         return action;
     }
@@ -104,10 +113,21 @@ public class GolfClub {
         System.out.printf("%s %s was successfully added to the database. Returning to main menu...\n", firstName, lastName);
     }
 
-    // Displays member's #, full name, and golf average
+    private static void displayDatabase(List<Member> database) {
+        for (int i = 0; i < database.size(); i++) {
+            displayInformation(database, i);
+        }
+    }
+
+    // Displays member's #, full name, and golf average given name
     private static void displayInformation(List<Member> database, String lastName, String firstName) {
         int idx = binarySearch(database, lastName, firstName);
-        System.out.printf("\nGolf Club Member %d: %s, %s\n", idx, database.get(idx).getLastName(), database.get(idx).getFirstName());
+        displayInformation(database, idx);
+    }
+
+    // Displays member's #, full name, and gold average given index
+    private static void displayInformation(List<Member> database, int idx) {
+        System.out.printf("\nGolf Club Member %d: %s, %s\n", idx + 1, database.get(idx).getLastName(), database.get(idx).getFirstName());
         System.out.printf("\tGolf Average: %.3f\n", database.get(idx).getGolfAverage());
     }
 
