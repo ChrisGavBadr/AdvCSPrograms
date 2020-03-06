@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="" />
+    <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/golfclub/GolfClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/golfclub/GolfClub.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583259513455</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added display database option">
+      <created>1583259660776</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583259660777</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582046449557" />
-    <state x="417" y="0" key="CommitChangelistDialog2" timestamp="1583259512789">
+    <state x="417" y="0" key="CommitChangelistDialog2" timestamp="1583508297594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="417" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583259512789" />
+    <state x="417" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583508297594" />
     <state width="1493" height="190" key="GridCell.Tab.0.bottom" timestamp="1583259535825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,14 +305,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583259535825" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1583259528265">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1583508310800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583259528265" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583259597658">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583508310800" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583507894075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583259597658" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583507894075" />
     <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582312176773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

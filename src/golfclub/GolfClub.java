@@ -11,7 +11,8 @@ public class GolfClub {
     private static final int ADD_MEMBER = 2;
     private static final int EXIT_DATABASE = 3;
 
-    private static final double EPSILON = 0.00000001;     // Used for floating-point errors
+    // Used to account for floating-point errors
+    private static final double EPSILON = 0.00000001;
 
     // Initializes Golf Club database and initiates program
     public static void main(String[] args) {
@@ -47,7 +48,7 @@ public class GolfClub {
         } while (action != EXIT_DATABASE);
     }
 
-    // Prompts user for next action (search member, add member, or exit database)
+    // Prompts user for next action (display database, search member, add member, or exit database)
     private static int promptNextAction() {
         Scanner s = new Scanner(System.in);
         int action;
