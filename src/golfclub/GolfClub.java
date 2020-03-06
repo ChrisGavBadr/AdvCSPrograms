@@ -53,7 +53,7 @@ public class GolfClub {
         Scanner s = new Scanner(System.in);
         int action;
 
-        System.out.println("----\nWhat action do you want to take?");
+        System.out.println("----\nWhat action would you like to take?");
         System.out.println("\t[0] - Display database");
         System.out.println("\t[1] - Search for a current Golf Club member");
         System.out.println("\t[2] - Add a new Golf Club member to the database");
