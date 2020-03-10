@@ -1,7 +1,7 @@
 package pathfinder;
 
 class Main {
-    final static char C = ' ', X = 'x', S = 's', E = 'e', V = '.';
+    final static char C = Constants.C, X = Constants.X, S = Constants.S, E = Constants.E, V = Constants.V;
 
     //Unsolvable Maze
     private static char[][] initialCharMaze = {
@@ -18,7 +18,7 @@ class Main {
     };
 
     private static Maze initialMaze = new Maze(initialCharMaze);
-    private static Navigator navigator = new Navigator(initialMaze, 1, 1);
+    private static Navigator navigator = new Navigator(initialMaze);
   
   /*
   //Solveable Maze
@@ -39,11 +39,12 @@ class Main {
 
     public static void main(String[] args) {
         System.out.println(initialMaze.toString());
+        System.out.println(navigator.getPosition().toString());
 
-        System.out.println();
+        /*System.out.println();
         solveQ();
         System.out.println();
-        solveS();
+        solveS();*/
     }
 
     public static void solveQ() {
