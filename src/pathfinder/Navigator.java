@@ -4,72 +4,60 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Navigator {
+public abstract class Navigator {
 
-    private Maze maze;
-    private Stack<Position> path = new Stack<>();
-    private Position position;
+    protected Maze maze;
+    protected Position position;
 
-    public Navigator(Maze maze, int x, int y) {
+    protected Navigator(Maze maze, int x, int y) {
         this.maze = maze.copy();
-        position = new Position(maze, x, y);
-
-        for (int i = 0; i < maze.getYDimension(); i++) {
-            for (int j = 0; j < maze.getXDimension(); j++) {
-                if (maze.getMaze()[i][j] == Constants.C || maze.getMaze()[i][j] == Constants.S) {
-                    path.push(new Position(maze, j, i));
-                }
-            }
-        }
+        position = new Position(x, y);
     }
 
-    public Navigator(Maze maze, Position start) {
+    protected Navigator(Maze maze, Position start) {
         this(maze, start.x(), start.y());
     }
 
-    public Navigator(Maze maze) {
+    protected Navigator(Maze maze) {
         this.maze = maze.copy();
+        position = maze.findStartPosition();
+    }
 
-        for (int y = 0; y < maze.getYDimension(); y++) {
-            for (int x = 0; x < maze.getXDimension(); x++) {
-                if (maze.getMaze()[y][x] == Constants.S) {
-                    position = new Position(maze, x, y);
-                    break;
-                }
-            }
+    protected void setExplored() {
+        if (maze.getPositionState(position) == Constants.C) {
+            maze.setPositionState(position, Constants.V);
         }
     }
 
-    public void up() {
+    protected void up() {
         position.setY(position.y() - 1);
-
+        setExplored();
     }
 
-    public void down() {
+    protected void down() {
         position.setY(position.y() + 1);
+        setExplored();
     }
 
-    public void left() {
+    protected void left() {
         position.setX(position.x() - 1);
+        setExplored();
     }
 
-    public void right() {
+    protected void right() {
         position.setX(position.x() + 1);
+        setExplored();
     }
 
-    public Stack<Position> getPath() {
-        return path;
-    }
-
-    public Position getPosition() {
+    protected Position getPosition() {
         return position;
     }
 
-    public void setX(int x) {
+    protected void setX(int x) {
         position.setX(x);
     }
 
-    public void setY(int y) {
+    protected void setY(int y) {
         position.setY(y);
     }
 }
