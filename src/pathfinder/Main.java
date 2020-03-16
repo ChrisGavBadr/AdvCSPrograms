@@ -1,6 +1,26 @@
 package pathfinder;
 
-import java.util.Queue;
+/* Project Questions: How do the stack and queue algorithms differ?
+ * How are they similar? In total, what process does this code
+ * remind you of? Leave your response, about a paragraph or two,
+ * in a comment on your code.
+ *
+ * The stack and queue algorithms used to determine if a maze is
+ * solvable are exactly alike. However, the way in which valid
+ * unexplored positions, or elements in general, are stored and
+ * accessed are different. This is fundamental to the existence of
+ * stacks and queues. In my algorithm, the work list of valid unexplored
+ * positions were searched and added in the following order relative to
+ * the current position: above, below, left, and right. In a stack work
+ * list, the last valid unexplored position in the list would become the
+ * new current position. On the other hand, in a queue work list, the
+ * first valid unexplored position in the list would become the new
+ * current position.
+ *
+ * The algorithm this program uses reminds me of the merge sorting
+ * algorithm. Similar to merge sorting, this algorithm branches off to
+ * different possibilities in order to accomplish a goal.
+ */
 
 class Main {
     final static char C = Constants.C, X = Constants.X, S = Constants.S, E = Constants.E, V = Constants.V;
@@ -63,8 +83,12 @@ class Main {
         System.out.println("Stack Navigator");
         System.out.println(maze.toString());
         mazeIsSolveable = navigator.solveMaze();
-        System.out.println("\n" + navigator.toString());
-        System.out.println("Solveable (Stack): " + mazeIsSolveable);
+        if (mazeIsSolveable) {
+            System.out.println("\nStack: Escape Successful");
+        } else {
+            System.out.println("\nStack: Escape Unsuccessful");
+        }
+        System.out.println(navigator.toString());
     }
 
     // Solves maze using queues
@@ -73,7 +97,11 @@ class Main {
         System.out.println("Queue Navigator");
         System.out.println(maze.toString());
         mazeIsSolveable = navigator.solveMaze();
-        System.out.println("\n" + navigator.toString());
-        System.out.println("Solveable (Queue): " + mazeIsSolveable);
+        if (mazeIsSolveable) {
+            System.out.println("\nQueue: Escape Successful");
+        } else {
+            System.out.println("\nQueue: Escape Unsuccessful");
+        }
+        System.out.println(navigator.toString());
     }
 }
