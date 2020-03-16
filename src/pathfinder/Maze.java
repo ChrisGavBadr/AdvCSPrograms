@@ -1,7 +1,5 @@
 package pathfinder;
 
-import java.util.Arrays;
-
 public class Maze {
     private char[][] maze;
     private int xDimension;
@@ -17,6 +15,7 @@ public class Maze {
         }
     }
 
+    // Automatically finds and returns starting position
     public Position findStartPosition() {
         for (int y = 0; y < yDimension; y++) {
             for (int x = 0; x < xDimension; x++) {
@@ -57,20 +56,6 @@ public class Maze {
         setPositionState(position.x(), position.y(), c);
     }
 
-    @Override
-    public String toString() {
-        StringBuilder s = new StringBuilder();
-
-        for (int y = 0; y < maze.length; y++) {
-            for (int x = 0; x < maze[0].length; x++) {
-                s.append(maze[y][x]).append(' ');
-            }
-            s.append("\n");
-        }
-
-        return s.toString();
-    }
-
     public Maze copy() {
         char[][] mazeCopy = new char[yDimension][];
 
@@ -79,5 +64,23 @@ public class Maze {
         }
 
         return new Maze(mazeCopy);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+
+        for (int x = 0; x < maze[0].length; x++) {
+            s.append(maze[0][x]).append(' ');
+        }
+
+        for (int y = 1; y < maze.length; y++) {
+            s.append("\n");
+            for (int x = 0; x < maze[0].length; x++) {
+                s.append(maze[y][x]).append(' ');
+            }
+        }
+
+        return s.toString();
     }
 }

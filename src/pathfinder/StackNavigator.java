@@ -18,49 +18,45 @@ public class StackNavigator extends Navigator {
         super(maze);
     }
 
+    // Solves maze using a stack
     public boolean solveMaze() {
-        boolean validMoveFound;
+        validUnexploredPositions.push(getCurrentPosition());
 
         do {
-            validMoveFound = determineNextValidMove();
-            if (!validMoveFound) {
-                position = validUnexploredPositions.pop();
+            setCurrentPosition(validUnexploredPositions.pop());
+            getMazePath().setPositionState(getCurrentPosition(), Constants.V);
+            if (foundEscapePoint()) {
+                getMazePath().setPositionState(getStartPosition(), Constants.S);
+                return true;
             }
+            determineNextValidMoves();
         } while (!validUnexploredPositions.isEmpty());
+
+        getMazePath().setPositionState(getStartPosition(), Constants.S);
+        return false;
     }
 
-    private boolean determineNextValidMove() {
-        boolean validMoveFound = false;
-
-        // Check above position
-        if (maze.getPositionState(position.x(), position.y() - 1) == Constants.C) {
-            validMoveFound = true;
-            up();
-        } else {
-            validUnexploredPositions.push(new Position(position.x(), position.y() - 1));
+    // Pushes valid positions adjacent to current position to stack
+    private void determineNextValidMoves() {
+        // Check above current position
+        if (getCurrentPosition().y() > 0
+                && getMazePath().getPositionState(getCurrentPosition().x(), getCurrentPosition().y() - 1) == Constants.C) {
+            validUnexploredPositions.push(new Position(getCurrentPosition().x(), getCurrentPosition().y() - 1));
         }
-        // Check below position
-        if (!validMoveFound && maze.getPositionState(position.x(), position.y() + 1) == Constants.C) {
-            validMoveFound = true;
-            down();
-        } else {
-            validUnexploredPositions.push(new Position(position.x(), position.y() + 1));
+        // Check below current position
+        if (getCurrentPosition().y() + 1 < getMazePath().getYDimension()
+                && getMazePath().getPositionState(getCurrentPosition().x(), getCurrentPosition().y() + 1) == Constants.C) {
+            validUnexploredPositions.push(new Position(getCurrentPosition().x(), getCurrentPosition().y() + 1));
         }
-        // Check left position
-        if (!validMoveFound && maze.getPositionState(position.x() - 1, position.y()) == Constants.C) {
-            validMoveFound = true;
-            left();
-        } else {
-            validUnexploredPositions.push(new Position(position.x(), position.y() + 1));
+        // Check left of current position
+        if (getCurrentPosition().x() > 0
+                && getMazePath().getPositionState(getCurrentPosition().x() - 1, getCurrentPosition().y()) == Constants.C) {
+            validUnexploredPositions.push(new Position(getCurrentPosition().x() - 1, getCurrentPosition().y()));
         }
-        // Check right position
-        if (!validMoveFound && maze.getPositionState(position.x() + 1, position.y()) == Constants.C) {
-            validMoveFound = true;
-            right();
-        } else {
-            validUnexploredPositions.push(new Position(position.x(), position.y() + 1));
+        // Check right of current position
+        if (getCurrentPosition().x() + 1 < getMazePath().getXDimension()
+                && getMazePath().getPositionState(getCurrentPosition().x() + 1, getCurrentPosition().y()) == Constants.C) {
+            validUnexploredPositions.push(new Position(getCurrentPosition().x() + 1, getCurrentPosition().y()));
         }
-
-        return validMoveFound;
     }
 }
