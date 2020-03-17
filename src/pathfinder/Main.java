@@ -79,11 +79,11 @@ class Main {
 
     // Solves maze using stacks
     public static void solveMaze(Maze maze, StackNavigator navigator) {
-        boolean mazeIsSolveable;
+        boolean mazeIsSolvable;
         System.out.println("Stack Navigator");
         System.out.println(maze.toString());
-        mazeIsSolveable = navigator.solveMaze();
-        if (mazeIsSolveable) {
+        mazeIsSolvable = navigator.solveMaze();
+        if (mazeIsSolvable) {
             System.out.println("\nStack: Escape Successful");
         } else {
             System.out.println("\nStack: Escape Unsuccessful");
@@ -93,11 +93,11 @@ class Main {
 
     // Solves maze using queues
     public static void solveMaze(Maze maze, QueueNavigator navigator) {
-        boolean mazeIsSolveable;
+        boolean mazeIsSolvable;
         System.out.println("Queue Navigator");
         System.out.println(maze.toString());
-        mazeIsSolveable = navigator.solveMaze();
-        if (mazeIsSolveable) {
+        mazeIsSolvable = navigator.solveMaze();
+        if (mazeIsSolvable) {
             System.out.println("\nQueue: Escape Successful");
         } else {
             System.out.println("\nQueue: Escape Unsuccessful");
