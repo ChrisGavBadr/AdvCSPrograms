@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584415822993</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixed a misspelling">
+      <created>1584454747446</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454747446</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +348,8 @@
     <MESSAGE value="Finished pathfinder project" />
     <MESSAGE value="Answered pathfinder prompt" />
     <MESSAGE value="Finished cw9: Rewriting the ArrayList library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished cw9: Rewriting the ArrayList library" />
+    <MESSAGE value="Fixed a misspelling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a misspelling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1584409281745">
@@ -356,10 +364,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1583860327037" />
-    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1584415822288">
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1584454754099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584415822288" />
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584454754099" />
     <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1584415881151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
