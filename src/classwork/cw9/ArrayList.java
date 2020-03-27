@@ -2,7 +2,6 @@ package classwork.cw9;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class ArrayList<E> {
     private Object[] elementData;
