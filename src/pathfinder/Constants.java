@@ -2,9 +2,9 @@ package pathfinder;
 
 public class Constants {
 
-    final static char C = ' ';
-    final static char X = 'X';
-    final static char S = 'S';
-    final static char E = 'E';
-    final static char V = '*';
+    public final static char C = ' ';
+    public final static char X = 'X';
+    public final static char S = 'S';
+    public final static char E = 'E';
+    public final static char V = '*';
 }

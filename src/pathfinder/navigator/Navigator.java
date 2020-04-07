@@ -1,10 +1,14 @@
-package pathfinder;
+package pathfinder.navigator;
+
+import pathfinder.Constants;
+import pathfinder.Maze;
+import pathfinder.Position;
 
 public abstract class Navigator {
 
-    private Maze mazePath;
-    private Position startPosition;
-    private Position currentPosition;
+    protected Maze mazePath;
+    protected Position startPosition;
+    protected Position currentPosition;
 
     protected Navigator(Maze maze, int x, int y) {
         this.mazePath = maze.copy();

@@ -22,6 +22,9 @@ package pathfinder;
  * different possibilities in order to accomplish a goal.
  */
 
+import pathfinder.navigator.QueueNavigator;
+import pathfinder.navigator.StackNavigator;
+
 class Main {
     final static char C = Constants.C, X = Constants.X, S = Constants.S, E = Constants.E, V = Constants.V;
 
