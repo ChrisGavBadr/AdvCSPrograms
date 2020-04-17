@@ -1,14 +1,14 @@
-package classwork.cw9;
+package classwork.owenlinkedlist;
 
-public class ArrayListDriver {
+public class LinkedListDriver {
 
     public static void main(String[] args) {
         Integer[] integerArray1 = {2, 3, 4, 5, 6, 7, 8};
         Integer[] integerArray2 = {4, 5, 6};
         Integer[] integerArray3 = {2, 3, 4, 5, 6, 7, 8};
-        ArrayList<Integer> integerList1 = new ArrayList<Integer>(integerArray1);
-        ArrayList<Integer> integerList2 = new ArrayList<Integer>(integerArray2);
-        ArrayList<Integer> integerList3 = new ArrayList<Integer>(integerArray3);
+        LinkedList<Integer> integerList1 = new LinkedList<Integer>(integerArray1);
+        LinkedList<Integer> integerList2 = new LinkedList<Integer>(integerArray2);
+        LinkedList<Integer> integerList3 = new LinkedList<Integer>(integerArray3);
 
         System.out.println("integerList1: " + integerList1.toString());
         System.out.println("integerList2: " + integerList2.toString());

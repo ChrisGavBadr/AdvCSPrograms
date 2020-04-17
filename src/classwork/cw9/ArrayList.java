@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ArrayList<E> {
-    private Object[] elementData;
+    private E[] elementData;
     private int size;
     private int capacity;
 
@@ -30,7 +30,7 @@ public class ArrayList<E> {
 
     public ArrayList(int capacity) {
         this.capacity = capacity;
-        elementData = new Object[capacity];
+        elementData = (E[]) (new Object[capacity]);
     }
 
     private void checkIndex(int idx) {
@@ -39,17 +39,17 @@ public class ArrayList<E> {
         }
     }
 
-    public void add(Object o) {
-        elementData[size] = o;
+    public void add(E value) {
+        elementData[size] = value;
         size++;
     }
 
-    public void add(int idx, Object o) {
+    public void add(int idx, E value) {
         checkIndex(idx);
         for (int i = size; i > idx; i--) {
             elementData[i] = elementData[i - 1];
         }
-        elementData[idx] = o;
+        elementData[idx] = value;
     }
 
     public void addAll(ArrayList<E> list) {
@@ -70,9 +70,13 @@ public class ArrayList<E> {
         size += list.size();
     }
 
-    public Object remove(int idx) {
+    public void remove() {
+        remove(0);
+    }
+
+    public E remove(int idx) {
         checkIndex(idx);
-        Object removed = elementData[idx];
+        E removed = elementData[idx];
         for (int i = idx; i < size; i++) {
             elementData[i] = elementData[i + 1];
         }
@@ -81,17 +85,16 @@ public class ArrayList<E> {
         return removed;
     }
 
-    public boolean remove(Object o) {
-        int idx = indexOf(o);
+    public boolean remove(E value) {
+        int idx = indexOf(value);
         if (idx != -1) {
             for (int i = idx; i < size; i++) {
                 elementData[i] = elementData[i + 1];
             }
             size--;
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     public void removeAll(ArrayList<E> list) {
@@ -110,18 +113,18 @@ public class ArrayList<E> {
         }
     }
 
-    public Object get(int idx) {
+    public E get(int idx) {
         checkIndex(idx);
         return elementData[idx];
     }
 
-    public void set(int idx, Object o) {
+    public void set(int idx, E value) {
         checkIndex(idx);
-        elementData[idx] = o;
+        elementData[idx] = value;
     }
 
-    public boolean contains(Object o) {
-        return indexOf(o) != -1;
+    public boolean contains(E value) {
+        return indexOf(value) != -1;
     }
 
     public boolean containsAll(ArrayList<E> list) {
@@ -133,18 +136,18 @@ public class ArrayList<E> {
         return true;
     }
 
-    public int indexOf(Object o) {
+    public int indexOf(E value) {
         for (int i = 0; i < size; i++) {
-            if (elementData[i].equals(o)) {
+            if (elementData[i].equals(value)) {
                 return i;
             }
         }
         return -1;
     }
 
-    public int lastIndexOf(Object o) {
+    public int lastIndexOf(E value) {
         for (int i = size - 1; i >= 0; i--) {
-            if (elementData[i].equals(o)) {
+            if (elementData[i].equals(value)) {
                 return i;
             }
         }
@@ -159,13 +162,13 @@ public class ArrayList<E> {
         return size == 0;
     }
 
-    public Object[] toArray() {
+    public E[] toArray() {
         return elementData;
     }
 
     public void clear() {
         for (int i = 0; i < size; i++) {
-            elementData[i] = new Object();
+            elementData[i] = (E) new Object();
         }
     }
 
