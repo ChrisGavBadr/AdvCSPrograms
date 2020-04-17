@@ -1,4 +1,4 @@
-package pathfinder;
+package projects.pathfinder;
 
 /* Project Questions: How do the stack and queue algorithms differ?
  * How are they similar? In total, what process does this code
@@ -22,8 +22,8 @@ package pathfinder;
  * different possibilities in order to accomplish a goal.
  */
 
-import pathfinder.navigator.QueueNavigator;
-import pathfinder.navigator.StackNavigator;
+import projects.pathfinder.navigator.QueueNavigator;
+import projects.pathfinder.navigator.StackNavigator;
 
 class Main {
     final static char C = Constants.C, X = Constants.X, S = Constants.S, E = Constants.E, V = Constants.V;

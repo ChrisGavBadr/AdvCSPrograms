@@ -1,4 +1,4 @@
-package scrabble;
+package projects.scrabble;
 
 public class MaxScrabbleScore extends TextFileAccessor {
 

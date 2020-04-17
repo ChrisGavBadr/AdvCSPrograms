@@ -1,4 +1,4 @@
-package golfclub;
+package projects.golfclub;
 
 public class Member {
 

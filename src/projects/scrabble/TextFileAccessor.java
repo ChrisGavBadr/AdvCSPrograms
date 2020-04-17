@@ -1,4 +1,4 @@
-package scrabble;
+package projects.scrabble;
 
 import java.io.File;
 import java.io.FileNotFoundException;

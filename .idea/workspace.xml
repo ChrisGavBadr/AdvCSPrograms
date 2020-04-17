@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Navigator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/QueueNavigator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/StackNavigator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pathfinder/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pathfinder/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pathfinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pathfinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pathfinder/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pathfinder/navigator/Navigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pathfinder/QueueNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pathfinder/navigator/QueueNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pathfinder/StackNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pathfinder/navigator/StackNavigator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +62,11 @@
       </method>
     </configuration>
     <configuration name="GolfClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="golfclub.GolfClub" />
+      <option name="MAIN_CLASS_NAME" value="projects.golfclub.GolfClub" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pathfinder.navigator.*" />
+          <option name="PATTERN" value="projects.pathfinder.navigator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pathfinder.Main" />
+      <option name="MAIN_CLASS_NAME" value="projects.pathfinder.Main" />
       <module name="AdvCSPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pathfinder.navigator.*" />
+          <option name="PATTERN" value="projects.pathfinder.navigator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585320929894</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Modified class structure to follow conventions">
+      <created>1586273277245</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586273277245</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +358,8 @@
     <MESSAGE value="Finished cw9: Rewriting the ArrayList library" />
     <MESSAGE value="Fixed a misspelling" />
     <MESSAGE value="Removed unnecessary import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary import" />
+    <MESSAGE value="Modified class structure to follow conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified class structure to follow conventions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1585061741303">
@@ -377,42 +374,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1583860327037" />
-    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1585320928586">
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1586273276181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585320928586" />
-    <state width="1493" height="370" key="GridCell.Tab.0.bottom" timestamp="1586272789034">
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586273276181" />
+    <state width="1493" height="103" key="GridCell.Tab.0.bottom" timestamp="1586273298279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="370" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586272789034" />
-    <state width="1493" height="370" key="GridCell.Tab.0.center" timestamp="1586272789034">
+    <state width="1493" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586273298279" />
+    <state width="1493" height="103" key="GridCell.Tab.0.center" timestamp="1586273298278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="370" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586272789034" />
-    <state width="1493" height="370" key="GridCell.Tab.0.left" timestamp="1586272789034">
+    <state width="1493" height="103" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586273298278" />
+    <state width="1493" height="103" key="GridCell.Tab.0.left" timestamp="1586273298278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="370" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586272789034" />
-    <state width="1493" height="370" key="GridCell.Tab.0.right" timestamp="1586272789034">
+    <state width="1493" height="103" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586273298278" />
+    <state width="1493" height="103" key="GridCell.Tab.0.right" timestamp="1586273298278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="370" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586272789034" />
+    <state width="1493" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586273298278" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1585876591063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585876591063" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1585320932030">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1586273279857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585320932030" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586270856797">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586273279857" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587082586939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586270856797" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587082586939" />
     <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584409346188">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1584409346188" />
+    <state x="577" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586875976843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586875976843" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1583944222407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

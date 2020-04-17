@@ -1,7 +1,4 @@
-package pathfinder;
-
-import pathfinder.Maze;
-import java.util.Objects;
+package projects.pathfinder;
 
 public class Position {
 

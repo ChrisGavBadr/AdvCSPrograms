@@ -1,4 +1,4 @@
-package pathfinder;
+package projects.pathfinder;
 
 public class Constants {
 

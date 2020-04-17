@@ -1,4 +1,4 @@
-package randomwriter;
+package projects.randomwriter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -62,7 +62,7 @@ public class RandomWriter {
 
          do {
              System.out.print("File Name: ");
-             file = new File("src\\randomwriter\\" + s.nextLine());
+             file = new File("src\\projects.randomwriter\\" + s.nextLine());
              if (!file.exists())
                  System.out.println("File does not exist.");
          } while (!file.exists());

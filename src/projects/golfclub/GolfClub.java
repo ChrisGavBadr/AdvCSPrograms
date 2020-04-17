@@ -1,6 +1,5 @@
-package golfclub;
+package projects.golfclub;
 
-import javax.swing.*;
 import java.util.*;
 
 public class GolfClub {

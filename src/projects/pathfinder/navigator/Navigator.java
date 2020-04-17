@@ -1,8 +1,8 @@
-package pathfinder.navigator;
+package projects.pathfinder.navigator;
 
-import pathfinder.Constants;
-import pathfinder.Maze;
-import pathfinder.Position;
+import projects.pathfinder.Constants;
+import projects.pathfinder.Maze;
+import projects.pathfinder.Position;
 
 public abstract class Navigator {
 
