@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5173b61c-b0e4-49a1-95a0-6e31e0b4ea8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw10/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw10/LinkedListDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cw10/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/owenlinkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/owenlinkedlist/LinkedListDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/owenlinkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apexams/exam1/CheckDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apexams/exam1/Gizmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apexams/exam1/OnlinePurchaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apexams/exam2/APCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apexams/exam2/Delimiters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayListDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvCSPrograms/classwork/cw9/ArrayListDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/golfclub/GolfClub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/golfclub/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/pathfinder/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/BeeMovieScript.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/GreenEggsAndHam.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/RandomWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/randomwriter/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/HeartOfDarkness.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/MaxScrabbleScore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/ScrabbleDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/TextFileAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/othertest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvCSPrograms/scrabble/sampletext.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw9/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw9/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cw9/ArrayListDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/cw9/ArrayListDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +44,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -140,7 +118,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LinkedListDriver" />
-        <item itemvalue="Application.LinkedListDriver (1)" />
         <item itemvalue="Application.ArrayListDriver" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
@@ -354,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587082723004</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Finished writing LinkedList class (classwork 10)">
+      <created>1587140214560</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1587140214560</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +356,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Began Classwork 7 (Chapter 13) problems" />
     <MESSAGE value="Finished RandomWriter CS Project" />
     <MESSAGE value="Fixed flaws in RandomWriter program" />
     <MESSAGE value="Worked on cw7; Reorganized cw4, cw5, and cw6" />
@@ -397,7 +380,8 @@
     <MESSAGE value="Removed unnecessary import" />
     <MESSAGE value="Modified class structure to follow conventions" />
     <MESSAGE value="Created projects folder for programming projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created projects folder for programming projects" />
+    <MESSAGE value="Finished writing LinkedList class (classwork 10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished writing LinkedList class (classwork 10)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1587137638125">
@@ -412,38 +396,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1583860327037" />
-    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1587082735342">
+    <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1587741246975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587082735342" />
-    <state width="1493" height="473" key="GridCell.Tab.0.bottom" timestamp="1587140163808">
+    <state x="282" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587741246975" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1587140239297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="473" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587140163808" />
-    <state width="1493" height="473" key="GridCell.Tab.0.center" timestamp="1587140163807">
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587140239297" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1587140239296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="473" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587140163807" />
-    <state width="1493" height="473" key="GridCell.Tab.0.left" timestamp="1587140163807">
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587140239296" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1587140239294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="473" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587140163807" />
-    <state width="1493" height="473" key="GridCell.Tab.0.right" timestamp="1587140163808">
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587140239294" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1587140239296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="473" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587140163808" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1585876591063">
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587140239296" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1587688432920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585876591063" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1586273279857">
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587688432920" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587140216879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586273279857" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587082586939">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587140216879" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587734679616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587082586939" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587734679616" />
     <state x="555" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587085978840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
